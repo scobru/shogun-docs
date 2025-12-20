@@ -37,6 +37,58 @@ List all content pinned on the node.
 `GET /ipfs/cat/:cid`
 Stream the content of a file by its CID.
 
+## L2 Bridge
+
+### Deposit ETH
+`POST /bridge/deposit`
+Record an L1 deposit on L2.
+*   **Body**: `{ "userAddress": "0x...", "amount": "0.1", "txHash": "0x..." }`
+
+### Get Balance
+`GET /bridge/balance/:userAddress`
+Get user's L2 balance.
+
+### Get Balance Info
+`GET /bridge/balance-info/:userAddress`
+Get detailed balance with Merkle proof for verification.
+
+### Transfer
+`POST /bridge/transfer`
+Transfer ETH between L2 users.
+*   **Body**: `{ "from": "0x...", "to": "0x...", "amount": "0.01", "nonce": 1, "signature": "...", "seaSignature": "..." }`
+
+### Request Withdrawal
+`POST /bridge/withdraw`
+Request a withdrawal from L2 to L1.
+*   **Body**: `{ "userAddress": "0x...", "amount": "0.1", "nonce": 1 }`
+
+### Get Pending Withdrawals
+`GET /bridge/pending/:userAddress`
+Get pending withdrawal requests for a user.
+
+### Get Withdrawal Proof
+`GET /bridge/proof/:userAddress/:nonce`
+Get Merkle proof for a withdrawal request.
+
+## Storage Deals
+
+### Create Deal
+`POST /deals/create`
+Create a new storage deal.
+*   **Body**: `{ "cid": "Qm...", "size": 1024, "duration": 3600, "price": "1.00" }`
+
+### Get Deal
+`GET /deals/:dealId`
+Get details of a storage deal.
+
+### List User Deals
+`GET /deals/user/:userAddress`
+List all deals for a user.
+
+### Activate Deal
+`POST /deals/:dealId/activate`
+Relay activates a deal to begin storage.
+
 ## x402 Subscriptions
 
 ### Get Tiers
@@ -60,3 +112,18 @@ Get a list of all discovered relays in the network.
 ### Get Reputation
 `GET /network/reputation/:host`
 Get the reputation score of a specific relay.
+
+## Registry
+
+### Register Relay
+`POST /registry/register`
+Register this relay to the on-chain registry.
+
+### Get Relay Info
+`GET /registry/relay/:address`
+Get information about a registered relay.
+
+### List All Relays
+`GET /registry/relays`
+List all relays registered on-chain.
+

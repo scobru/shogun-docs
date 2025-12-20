@@ -47,6 +47,11 @@ const sidebars: SidebarsConfig = {
           label: '🔍 Infrastructure',
           items: ['apps/scan', 'apps/dweb'],
         },
+        {
+          type: 'category',
+          label: '🛠️ Tools',
+          items: ['apps/tunecamp'],
+        },
       ],
     },
     {

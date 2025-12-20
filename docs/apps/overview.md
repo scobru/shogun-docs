@@ -47,6 +47,12 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 | [Scan](scan) | GunDB network monitor with geographic visualization | [scan.shogun-eco.xyz](https://scan.shogun-eco.xyz) |
 | [DWeb Gateway](dweb) | Decentralized web publishing platform for HTML sites | Integrated in Shogun Starter |
 
+### 🛠️ Tools
+
+| App | Description | Live |
+|-----|-------------|------|
+| [Tunecamp](tunecamp) | Static music site generator (Faircamp-style) | [GitHub](https://github.com/scobru/tunecamp) |
+
 ## Common Features
 
 All Shogun apps share these core features:
