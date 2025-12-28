@@ -38,7 +38,6 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 |-----|-------------|------|
 | [Wallet](wallet) | Multi-chain cryptocurrency wallet with Bitcoin support | [wallet.shogun-eco.xyz](https://wallet.shogun-eco.xyz) |
 | [Deals](deals) | On-chain storage deals with USDC payments | [deals.shogun-eco.xyz](https://deals.shogun-eco.xyz) |
-| [L2 Bridge](l2-bridge) | ETH bridge between L1 (Base) and L2 (GunDB) | [l2.shogun-eco.xyz](https://l2.shogun-eco.xyz) |
 
 ### 🔍 Infrastructure
 
@@ -86,7 +85,7 @@ All Shogun apps share these core features:
 │  ┌────────────────────────────────────────────────┐ │
 │  │  Base / Optimism Smart Contracts               │ │
 │  │  • RelayRegistry  • StorageDealRegistry        │ │
-│  │  • StealthPayments • L2Bridge                  │ │
+│  │  • StealthPayments                              │ │
 │  └────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────┘
 ```
