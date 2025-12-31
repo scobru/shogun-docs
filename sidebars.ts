@@ -30,7 +30,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '📁 Storage & Files',
-          items: ['apps/drive', 'apps/wormhole', 'apps/binnu'],
+          items: ['apps/drive', 'apps/wormhole', 'apps/binnu', 'apps/mule'],
         },
         {
           type: 'category',
@@ -46,6 +46,11 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: '🔍 Infrastructure',
           items: ['apps/scan', 'apps/dweb'],
+        },
+        {
+          type: 'category',
+          label: '🧰 Utilities',
+          items: ['apps/nobackend'],
         },
       ],
     },

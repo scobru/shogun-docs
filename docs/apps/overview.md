@@ -24,6 +24,7 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 | [Drive](drive) | Decentralized encrypted file storage (Google Drive-style) | [drive.shogun-eco.xyz](https://drive.shogun-eco.xyz) |
 | [Wormhole](wormhole) | Secure P2P file transfer with IPFS | [wormhole.shogun-eco.xyz](https://wormhole.shogun-eco.xyz) |
 | [Binnu](binnu) | Decentralized P2P pastebin with syntax highlighting | [binnu.shogun-eco.xyz](https://binnu.shogun-eco.xyz) |
+| [Mule](mule) | Desktop P2P file sharing (eMule-style) | Desktop App |
 
 ### 📝 Productivity
 
@@ -45,6 +46,12 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 |-----|-------------|------|
 | [Scan](scan) | GunDB network monitor with geographic visualization | [scan.shogun-eco.xyz](https://scan.shogun-eco.xyz) |
 | [DWeb Gateway](dweb) | Decentralized web publishing platform for HTML sites | Integrated in Shogun Starter |
+
+### 🧰 Utilities
+
+| App | Description | Live |
+|-----|-------------|------|
+| [NoBackend](nobackend) | 14 serverless URL-based tools (notes, polls, QR, etc.) | [nobackend.shogun-eco.xyz](https://nobackend.shogun-eco.xyz) |
 
 ## Common Features
 
