@@ -50,7 +50,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '🧰 Utilities',
-          items: ['apps/nobackend'],
+          items: ['apps/pdos-01'],
         },
       ],
     },

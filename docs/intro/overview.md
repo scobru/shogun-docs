@@ -19,7 +19,7 @@ Shogun unifies three powerful technologies:
     *   Shogun Relay manages pinning, garbage collection, and availability.
 
 3.  **Blockchain (The Incentive Layer)**
-    *   Smart contracts on **Base** (Coinbase L2) and **Optimism**.
+    *   Smart contracts for incentives and registry.
     *   **ShogunRelayRegistry**: Tracks active relays and their reputation.
     *   **StorageDealRegistry**: Manages paid storage agreements (Deals).
     *   **x402**: A protocol for streaming micropayments and subscriptions.

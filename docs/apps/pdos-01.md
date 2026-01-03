@@ -1,11 +1,11 @@
-# Shogun NoBackend
+# PDOS 01
 
-> **14 Minimalist Serverless Web Tools**
+> **Post Disaster Operative System (01)**
 
-Shogun NoBackend is a suite of privacy-first web tools that store state entirely in the URL. Zero backend, zero tracking, 100% shareable.
+PDOS 01 is a suite of 19 minimalist serverless web tools that store state entirely in the URL. Zero backend, zero tracking, 100% shareable. Designed to be a small operating system of essential apps when major services are offline.
 
 **Status**: Live  
-**Live URL**: [nobackend.shogun-eco.xyz](https://nobackend.shogun-eco.xyz)  
+**Live URL**: [nobackend.shogun-eco.xyz](https://nobackend.shogun-eco.xyz) (soon to be updated)  
 **Source**: [GitHub](https://github.com/scobru/shogun) (textarea folder)
 
 ## Features
