@@ -54,41 +54,43 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: '📡 Relay',
-      collapsed: false,
-      items: [
+  ],
+},
+  {
+    type: 'category',
+    label: '📡 Relay',
+    collapsed: false,
+    items: [
         'relay/getting-started',
-        'relay/configuration',
-        'relay/api-reference',
-        'relay/provider-guide',
-        'relay/annas-archive',
-        'relay/wormhole',
+    'relay/configuration',
+    'relay/api-reference',
+    'relay/provider-guide',
+    'relay/annas-archive',
+    'relay/wormhole',
       ],
     },
-    {
-      type: 'category',
-      label: '📜 Smart Contracts',
+{
+  type: 'category',
+    label: '📜 Smart Contracts',
       collapsed: false,
-      items: [
-        'contracts/overview',
-        'contracts/registry',
-        'contracts/storage-deals',
-        'contracts/stealth-payments',
-      ],
+        items: [
+          'contracts/overview',
+          'contracts/registry',
+          'contracts/storage-deals',
+          'contracts/stealth-payments',
+        ],
     },
-    {
-      type: 'category',
-      label: '🛠️ SDK & Tools',
+{
+  type: 'category',
+    label: '🛠️ SDK & Tools',
       items: [
         'sdk/javascript-sdk',
         'sdk/starter',
       ],
     },
-    {
-      type: 'category',
-      label: '📚 Tutorials',
+{
+  type: 'category',
+    label: '📚 Tutorials',
       items: [
         'tutorials/deploy-relay',
         'tutorials/store-data',
