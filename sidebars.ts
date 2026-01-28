@@ -40,7 +40,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '💰 Wallet & Finance',
-          items: ['apps/wallet', 'apps/deals', 'apps/l2-bridge'],
+          items: ['apps/wallet', 'apps/deals'],
         },
         {
           type: 'category',
@@ -50,7 +50,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '🛠️ Tools',
-          items: ['apps/tunecamp', 'apps/hibiki'],
+          items: ['apps/tunecamp', 'apps/hibiki', 'apps/pdos'],
         },
       ],
     },
@@ -63,6 +63,8 @@ const sidebars: SidebarsConfig = {
         'relay/configuration',
         'relay/api-reference',
         'relay/provider-guide',
+        'relay/annas-archive',
+        'relay/wormhole',
       ],
     },
     {

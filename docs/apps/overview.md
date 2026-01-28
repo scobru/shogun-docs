@@ -24,6 +24,7 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 | [Drive](drive) | Decentralized encrypted file storage (Google Drive-style) | [drive.shogun-eco.xyz](https://drive.shogun-eco.xyz) |
 | [Wormhole](wormhole) | Secure P2P file transfer with IPFS | [wormhole.shogun-eco.xyz](https://wormhole.shogun-eco.xyz) |
 | [Binnu](binnu) | Decentralized P2P pastebin with syntax highlighting | [binnu.shogun-eco.xyz](https://binnu.shogun-eco.xyz) |
+| [Mule](mule) | Desktop P2P file sharing (eMule-style) | Desktop App |
 
 ### 📝 Productivity
 
@@ -38,7 +39,6 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 |-----|-------------|------|
 | [Wallet](wallet) | Multi-chain cryptocurrency wallet with Bitcoin support | [wallet.shogun-eco.xyz](https://wallet.shogun-eco.xyz) |
 | [Deals](deals) | On-chain storage deals with USDC payments | [deals.shogun-eco.xyz](https://deals.shogun-eco.xyz) |
-| [L2 Bridge](l2-bridge) | ETH bridge between L1 (Base) and L2 (GunDB) | [l2.shogun-eco.xyz](https://l2.shogun-eco.xyz) |
 
 ### 🔍 Infrastructure
 
@@ -52,6 +52,7 @@ The Shogun ecosystem provides a comprehensive suite of decentralized application
 | App | Description | Live |
 |-----|-------------|------|
 | [Tunecamp](tunecamp) | Static music site generator (Faircamp-style) | [GitHub](https://github.com/scobru/tunecamp) |
+| [PDOS (NoBackend)](pdos) | 14 serverless URL-based tools (notes, polls, QR, etc.) | [pdos.shogun-eco.xyz](https://pdos.shogun-eco.xyz) |
 
 ## Common Features
 
@@ -92,7 +93,7 @@ All Shogun apps share these core features:
 │  ┌────────────────────────────────────────────────┐ │
 │  │  Base / Optimism Smart Contracts               │ │
 │  │  • RelayRegistry  • StorageDealRegistry        │ │
-│  │  • StealthPayments • L2Bridge                  │ │
+│  │  • StealthPayments                              │ │
 │  └────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────┘
 ```
