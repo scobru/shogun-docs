@@ -13,7 +13,7 @@ const config: Config = {
 
   // GitHub Pages URL
   url: 'https://scobru.github.io',
-  baseUrl: '/shogun-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config
   organizationName: 'scobru',

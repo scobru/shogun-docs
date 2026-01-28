@@ -95,4 +95,3 @@ yarn build
 
 - [Auth](auth) - Shogun authentication
 - [Deals](deals) - On-chain payments
-- [L2 Bridge](l2-bridge) - L1/L2 transfers
