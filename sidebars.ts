@@ -25,17 +25,17 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '💬 Communication',
-          items: ['apps/linda', 'apps/gypt'],
+          items: ['apps/linda', 'apps/gypt', 'apps/mistodon'],
         },
         {
           type: 'category',
           label: '📁 Storage & Files',
-          items: ['apps/drive', 'apps/wormhole', 'apps/binnu'],
+          items: ['apps/drive', 'apps/wormhole', 'apps/binnu', 'apps/mule'],
         },
         {
           type: 'category',
           label: '📝 Productivity',
-          items: ['apps/notes', 'apps/linko'],
+          items: ['apps/notes', 'apps/linko', 'apps/pdos'],
         },
         {
           type: 'category',
@@ -50,7 +50,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: '🛠️ Tools',
-          items: ['apps/tunecamp'],
+          items: ['apps/tunecamp', 'apps/hibiki'],
         },
       ],
     },
@@ -81,6 +81,7 @@ const sidebars: SidebarsConfig = {
       label: '🛠️ SDK & Tools',
       items: [
         'sdk/javascript-sdk',
+        'sdk/starter',
       ],
     },
     {
