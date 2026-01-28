@@ -251,7 +251,7 @@ CMD ["node", "server.js"]
 
 ## Related
 
-- [Shogun Starter](../../../shogun-starter%20copy/README) - Starter template with DWeb integration
+- [Shogun Starter](https://github.com/scobru/shogun-starter) - Starter template with DWeb integration
 - [Relay](../relay/getting-started) - Run your own GunDB relay
 - [GunDB Documentation](https://gun.eco) - GunDB network documentation
 

@@ -20,7 +20,9 @@ When a module is disabled, its routes return `503 Service Unavailable`.
 
 ---
 
-## Essential Configuration
+---
+
+## Essential Configuration {#ipfs-configuration}
 
 | Variable | Description | Default | Required |
 |----------|-------------|---------|----------|

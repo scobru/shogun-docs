@@ -65,7 +65,6 @@ List all content pinned on the node.
 `GET /api/v1/ipfs/cat/:cid`
 Stream the content of a file by its CID.
 
-<<<<<<< HEAD
 ## L2 Bridge
 
 ### Deposit ETH
@@ -99,32 +98,12 @@ Get pending withdrawal requests for a user.
 `GET /bridge/proof/:userAddress/:nonce`
 Get Merkle proof for a withdrawal request.
 
-## Storage Deals
-
-### Create Deal
-`POST /deals/create`
-Create a new storage deal.
-*   **Body**: `{ "cid": "Qm...", "size": 1024, "duration": 3600, "price": "1.00" }`
-
-### Get Deal
-`GET /deals/:dealId`
-Get details of a storage deal.
-
-### List User Deals
-`GET /deals/user/:userAddress`
-List all deals for a user.
-
-### Activate Deal
-`POST /deals/:dealId/activate`
-Relay activates a deal to begin storage.
-=======
 ### Decrypt Content
 `GET /api/v1/ipfs/cat/:cid/decrypt`
 Decrypt and retrieve encrypted file content from IPFS.
 - **Query**: `token` - Encryption token (wallet signature used for encryption)
 
 ---
->>>>>>> 97219b94b36e142a7823ac07b09deef5a6aa5556
 
 ## x402 Subscriptions
 
@@ -188,7 +167,6 @@ Get a list of all discovered relays in the network.
 `GET /api/v1/network/reputation/:host`
 Get the reputation score of a specific relay.
 
-<<<<<<< HEAD
 ## Registry
 
 ### Register Relay
@@ -203,7 +181,6 @@ Get information about a registered relay.
 `GET /registry/relays`
 List all relays registered on-chain.
 
-=======
 ---
 
 ## Anna's Archive (Torrent Manager)
@@ -241,4 +218,3 @@ Save file metadata to the system hash map (admin only).
 ### Remove System Hash
 `DELETE /api/v1/user-uploads/remove-system-hash/:cid`
 Remove file metadata from the system hash map (admin only).
->>>>>>> 97219b94b36e142a7823ac07b09deef5a6aa5556

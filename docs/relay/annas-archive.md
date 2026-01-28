@@ -211,5 +211,5 @@ Other relays can discover your content and users can access files via your IPFS 
 ## Related Documentation
 
 - [IPFS Configuration](./configuration.md#ipfs-configuration)
-- [Storage Deals](./storage-deals.md)
+- [Storage Deals](../contracts/storage-deals.md)
 - [Network Federation](https://github.com/scobru/shogun-relay/blob/main/docs/NETWORK_FEDERATION.md)
